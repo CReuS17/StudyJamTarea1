@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wasa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carlosandroid"
+    android:orientation="vertical"
+    tools:context="com.androidbolivia.lawasa.WasaActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Albums"
+            android:textSize="40dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="normal"
+            android:gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:src="@android:mipmap/sym_def_app_icon"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="82dp"
+            android:layout_height="78dp"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/carlosandroidAl"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electro House"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Djs´"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="82dp"
+            android:layout_height="78dp"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/carlosandroidAl2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discography House"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Martin Garrix"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="78dp"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/carlosandroidAl3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18 Months"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calvin Harris"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="78dp"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/carlosandroidAl4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stay Whit Me For Ever"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Justin Beiber"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="78dp"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/carlosandroidAl5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Future House"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spinning Records"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="78dp"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/carlosandroidAl6"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Armada"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Andrew Rayel"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
